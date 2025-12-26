@@ -16,3 +16,6 @@ const user = {
 console.log(`name is ${user.name}`);
 console.log(`age is ${user.age}`);
 
+//or 
+
+console.log(`email is ${user['email']}`)
